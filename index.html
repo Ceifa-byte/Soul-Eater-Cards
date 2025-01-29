@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clone Yu-Gi-Oh! - Semana do zero ao programador contratado</title>
+</head>
+
+<link rel="stylesheet" href="src/css/fontes.css">
+<link rel="stylesheet" href="src/css/reset.css">
+<link rel="stylesheet" href="src/css/estilos.css">
+<link rel="stylesheet" href="src/css/responsivo.css">
+
+<body>
+  <header class="cabecalho">
+    <h1 class="titulo">Soul Eater!</h1>
+  </header>
+  <main class="slider">
+    <button class="btn-seta btn-voltar" id="btn-voltar">
+      <img src="src/imagens/seta.png" alt="seta voltar" />
+    </button>
+
+    <ul class="lista-personagens">
+      <li class="cartao fundo-1 selecionado">
+        <div class="carta-virada"></div>
+
+        <h2 class="nome">Maka Albarn A Artífice De Foice</h2>
+
+        <div class="nivel-carta">
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          
+        </div>
+
+        <img src="src/imagens/makasoul.jpg" alt="Maka Albarn A Artífice De Foice" class="imagem-carta" />
+
+        <div class="informacoes">
+          <p class="descricao">
+            Artesã de foices e parceira de Soul Eater. Ela é sempre responsável com suas tarefas na Shibusen, sendo uma
+            das alunas mais aplicadas. O principal objetivo dela é superar sua mãe, criando uma Death Scythe mais forte
+            que seu pai. O tamanho de soul posibilita maka ataca a carta adjacente da selecionada mais com dano reduzido.
+          </p>
+          <div class="informacoes-ataque">
+            <span>ATK/ 2700</span>
+            <span>DEF/ 2500</span>
+          </div>
+        </div>
+      </li>
+
+      <li class="cartao fundo-2">
+        <div class="carta-virada"></div>
+
+        <h2 class="nome">Black Star O Homem Que Superar Os Deuses</h2>
+
+        <div class="nivel-carta">
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+        </div>
+
+        <img src="src/imagens/blackstar.jpg" alt="Black Star O Homem Que Superar Os Deuses" class="imagem-carta" />
+
+        <div class="informacoes">
+          <p class="descricao">
+            Um jovem vindo de um tradicional clã de assassinos, possui a habilidade de utilizar os pulsos de sua alma para usar de um golpe mortal. Junto de sua arma, Tsubaki, ele tenta realizar o desejo de criar uma Death Scyte e superar os deuses. Por sua experiência pode ataca duas vezes a cada turno. 
+          </p>
+          <div class="informacoes-ataque">
+            <span>ATK/ 1500</span>
+            <span>DEF/ 1900</span>
+          </div>
+        </div>
+      </li>
+
+      <li class="cartao fundo-3">
+        <div class="carta-virada"></div>
+        <h2 class="nome">Death The Kid, Filho Da Morte</h2>
+        <div class="nivel-carta">
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+        </div>
+        <img src="src/imagens/kid.png" alt="Death The Kid, Filho Da Morte" class="imagem-carta" />
+        <div class="informacoes">
+          <p class="descricao">
+            Filho de Shinigami-Sama, é dito que Kid é um jovem tão perfeito que acabou se tornando perfeccionista. Sua maior mania consiste em aplicar a simetria em tudo, desejando um mundo perfeito, onde tudo tenha lados iguais e simétricos. Isto o atrapalha muito em uma luta, mas quando isto é superado, é um grande adversário. Depois De 4 turnos atacando no 5 causa 3x de dano.
+          </p>
+          <div class="informacoes-ataque">
+            <span>ATK/ 1650</span>
+            <span>DEF/ 2000</span>
+          </div>
+        </div>
+      </li>
+      <li class="cartao fundo-4">
+        <div class="carta-virada"></div>
+        <h2 class="nome">Shinigami-sama,Senhor Deus da Morte</h2>
+        <div class="nivel-carta">
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+        </div>
+        <img src="src/imagens/death.jpg" alt="Shinigami-sama,Senhor Deus da Morte" class="imagem-carta" />
+        <div class="informacoes">
+          <p class="descricao">
+            Diretor e fundador da Shibusen, é um ser de aparência estranha, usando uma cômica máscara de caveira. Apesar de seu jeito engraçado, Shinigami-Sama possui seu lado sério. Há muitos anos, derrotou e aprisionou o Kishin Asura, para que o mundo não entrasse em insanidade total. Usando o seu Shinigami-Chop causa dano massivo. (Quando sua Death Scythe (Spirit) esta em campo consegue usar ela para subir seu ATK e DEF em 2x.)
+          </p>
+          <div class="informacoes-ataque">
+            <span>ATK/ 3600</span>
+            <span>DEF/ 2800</span>
+          </div>
+        </div>
+      </li>
+      <li class="cartao fundo-5">
+        <div class="carta-virada"></div>
+        <h2 class="nome">Dr. Franken Stein, o Melhor Artesão de Toda Shibusen.</h2>
+        <div class="nivel-carta">
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+        </div>
+        <img src="/src/imagens/Doctorstein.png" alt="Dr. Franken Stein, o Melhor Artesão de Toda Shibusen"
+          class="imagem-carta" />
+        <div class="informacoes">
+          <p class="descricao">
+            Um cientista louco que foi o melhor artesão de toda Shibusen, possui a habilidade de adaptar sua alma podendo manipular qualquer arma. Ele foi o primeiro manipulador de Death Scythe. Seus ataques na alma podem cauda um dano explosivo.  
+          </p>
+          <div class="informacoes-ataque">
+            <span>ATK/ 2500</span>
+            <span>DEF/ 2300</span>
+          </div>
+        </div>
+      </li>
+      <li class="cartao fundo-6">
+        <div class="carta-virada"></div>
+        <h2 class="nome">Spirit a Death Scythe</h2>
+        <div class="nivel-carta">
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+        </div>
+        <img src="src/imagens/spirit.png" alt="Spirit a Death Scythe" class="imagem-carta" />
+        <div class="informacoes">
+          <p class="descricao">
+            Antes da mãe de Maka transforma-lo em Death Scythe seu nome era Spirit. Seu primeiro manipulador não foi a mãe de Maka, mas o estranho Dr. Franken Stein. Ele participa de missões designadas por Shinigami junto ao Stein (por ser capaz de adaptar sua alma para que possa manipular qualquer arma). Seu atual manipulador é o Shinigami-Sama. Death Scythe ama muito sua filha Maka, porém é rejeitado pela mesma. Spirit mesmo sendo fraco sozinho pode causa uma loucura com as cartas certas em jogo pode acabando virando o jogo.(Pode se juntando com o Shinigami-Sama aumentando seus status)
+          </p>
+          <div class="informacoes-ataque">
+            <span>ATK/ 1000</span>
+            <span>DEF/ 2900</span>
+          </div>
+        </div>
+      </li>
+      <li class="cartao fundo-7">
+        <div class="carta-virada"></div>
+        <h2 class="nome">Shinigami-Sama e sua Death Scythe</h2>
+        <div class="nivel-carta">
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+          <span class="estrela"></span>
+        </div>
+        <img src="/src/imagens/deathspirit.jpg" alt="Shinigami-Sama e sua Death Scythe"
+          class="imagem-carta" />
+        <div class="informacoes">
+          <p class="descricao">
+            Shinigami-Sama Com sua Death Scythe fica muito mais forte do que o de costume conseguindo corta seus inimigos com uma facilidade imensa e nao recuando por nada, seu ATK e DEF sobe 2x e podendo ser o terror dos seus inimigos. Mais depois de ataca volta tendo que fica em modo de Defesa por 1 turno completo antes de pode ataca denovo.
+            "A única verdadeira foice da morte"
+          </p>
+          <div class="informacoes-ataque">
+            <span>ATK/ 7200</span>
+            <span>DEF/ 5600</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <button class="btn-seta btn-avancar" id="btn-avancar">
+      <img src="src/imagens/seta.png" alt="seta avançar" />
+    </button>
+  </main>
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>
